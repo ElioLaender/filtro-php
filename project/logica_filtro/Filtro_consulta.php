@@ -10,11 +10,11 @@ class Filtro_consulta {
 	private $conexao,
             $sql,
             $html = "",
-			$array_dados, #array contendo dados passados na Filtro_config.
-			$tabela, #Nome da tabela.
-			$att_retorno, #Atributos a serem retornados.
+	    $array_dados, #array contendo dados passados na Filtro_config.
+	    $tabela, #Nome da tabela.
+	    $att_retorno, #Atributos a serem retornados.
             $array_entrada_form,
-			$limit; #quantidade máxima de registros retornados.
+	    $limit; #quantidade máxima de registros retornados.
 
       private function logErro($erro){
 
