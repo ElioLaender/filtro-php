@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <![endif]-->
+    <title>Filtro dinâmico com PHP e Mysql</title>
+    <!-- BOOTSTRAP CORE STYLE  -->
+    <link href="project/logica_visual/telas/assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- FONT AWESOME ICONS  -->
+    <link href="project/logica_visual/telas/assets/css/font-awesome.css" rel="stylesheet" />
+    <!-- CUSTOM STYLE  -->
+    <link href="project/logica_visual/telas/assets/css/style.css" rel="stylesheet" />
+    <!-- HTML5 Shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+        footer{
+            width: 100%;
+            position: absolute;
+            margin-top: 105px;
+        }
+
+        .log-erro{
+            margin-left: 3%;
+        }
+
+        li.alert-danger{
+            margin-top: 5px;
+            width: 90%;
+        }
+    </style>
+</head>
+<body>
+<header>
+
+</header>
+<!-- HEADER END-->
+<div class="navbar navbar-inverse set-radius-zero">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+
+        </div>
+
+        <div class="left-div">
+            <div class="user-settings-wrapper">
+                <h1 style="color:white; font-size: 25px;">Gerando SQL dinamicamente para fitro de dados - PHP e MySql</h1>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- LOGO HEADER END-->
+<section class="menu-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="navbar-collapse collapse ">
+                    <ul id="menu-top" class="nav navbar-nav navbar-right">
+                        <li><a class="" href="index.html">Ver Tutorial</a></li>
+                        <li><a href="ui.html">Download</a></li>
+                        <li><a href="table.html">Contato</a></li>
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- MENU SECTION END-->
+<div class="content-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h4 class="page-head-line">Opssss, Ocorreu um erro!</h4>
+
+            </div>
+
+
+            <!--log inicio-->
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel panel-default">
+
+                        <div class="log-erro">
+                           <h3>Log de erros:</h3>
+                            <ul>
+                                <?php echo $lista; ?>
+                            </ul>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!--log fim-->
+
+        </div>
+
+
+
+
+    </div>
+</div>
+
+
+<!-- CONTENT-WRAPPER SECTION END-->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <a href="http://eliolaender.com.br" target="_blank"> © 2017  | Desenvolvido por : Élio Laender</a>
+            </div>
+
+        </div>
+    </div>
+</footer>
+<!--&lt;!&ndash; FOOTER SECTION END&ndash;&gt;-->
+<!-- JAVASCRIPT AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
+<!-- CORE JQUERY SCRIPTS -->
+<script src="project/logica_visual/telas/assets/js/jquery-1.11.1.js"></script>
+<!-- BOOTSTRAP SCRIPTS  -->
+<script src="project/logica_visual/telas/assets/js/bootstrap.js"></script>
+</body>
+</html>
