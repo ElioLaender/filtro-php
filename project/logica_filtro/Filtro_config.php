@@ -4,40 +4,40 @@ namespace project\logica_filtro;
 
 class Filtro_config {
 
-	public function regra_filtro(){
+ public function regra_filtro(){
 
-		#retorna array contendo dados das tableas a serem trabalhadas.
-		return [
+#retorna array contendo dados das tableas a serem trabalhadas.
+	return [
 
-				#recebe tabelas do banco de dados.
-				'tabelas' => array(
-					
-					#recebe a especificação da tabela.
-					'venda_carros' => array(
+	#recebe tabelas do banco de dados.
+	'tabelas' => array(
 
-							 #recebe lista de atributos.
-							 'atributos' => array(
+		#recebe a especificação da tabela.
+		'venda_carros' => array(
 
-							 		 "carros_marca" => array(
+			 #recebe lista de atributos.
+			 'atributos' => array(
 
-							 			"tipo" => "varchar",
-							 			"tamanho" => 10,
+				     "carros_marca" => array(
+
+					"tipo" => "varchar",
+					"tamanho" => 10,
                                         "html_att_name" => "marca"
 
                                      ),
 
-							 		 "carros_modelo" => array(
+				     "carros_modelo" => array(
 
-							 			"tipo" => "varchar",
-							 			"tamanho" => 15,
+					"tipo" => "varchar",
+					"tamanho" => 15,
                                         "html_att_name" => "modelo"
 
                                      ),
 
-							 		 "carros_ano" => array(
+				    "carros_ano" => array(
 
-							 			"tipo" => "int",
-							 			"tamanho" => 11,
+					"tipo" => "int",
+					"tamanho" => 11,
                                         "html_att_name" => ""
 
                                      ),
