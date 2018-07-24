@@ -34,36 +34,27 @@ class Filtro_config {
 							 'atributos' => array(
 
 							 		 "carros_marca" => array(
-
 							 			"tipo" => "varchar",
 							 			"tamanho" => 10,
-                                        "html_att_name" => "marca"
-
-                                     ),
-
+                                        					"html_att_name" => "marca"
+                                    					 ),
 							 		 "carros_modelo" => array(
-
 							 			"tipo" => "varchar",
 							 			"tamanho" => 15,
-                                        "html_att_name" => "modelo"
-
-                                     ),
-
+                                        					"html_att_name" => "modelo"
+                                     					 ),
 							 		 "carros_ano" => array(
-
 							 			"tipo" => "int",
 							 			"tamanho" => 11,
-                                        "html_att_name" => ""
+                                        					"html_att_name" => ""
+                                     					 )
+                                 					//outros atributos...
+                             			       )
+				    )
+			     //outras tabelas...
 
-                                     )
-                                 //outros atributos...
-                             )
-						)
-
-					//outras tabelas...
-
-					)
-			];
+			   )
+		      ];
 	}
 }
 </code>
